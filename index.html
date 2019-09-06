@@ -1,23 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<style type="text/css">
-body {
-    background-image: url(images/banner.jpg);
-    background-repeat: no-repeat;
-}
-body,td,th {
-    font-size: 24px;
-    color: #F63;
-    font-family: "微软雅黑";
-}
-</style>
+<title>首页</title>
 </head>
- 
-<body>
-<p>《《请点击左边选择小说
-</p>
-</body>
+<frameset rows="120,*" cols="*" frameborder="no" border="0" framespacing="0">
+  <frame src="top.html" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+  <frameset cols="120,*" frameborder="no" border="0" framespacing="0">
+    <frame src="left.html" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+    <frame src="main.html" name="mainFrame" id="mainFrame" title="mainFrame" />
+  </frameset>
+</frameset>
+<noframes><body>
+</body></noframes>
 </html>
